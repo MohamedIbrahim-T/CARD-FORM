@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL:https://www.frontendmentor.io/solutions/card-form-landing-page-bn9JjSd9PT
+- Live Site URL:https://deft-sunshine-74b36b.netlify.app/
 
 ## My process
 
