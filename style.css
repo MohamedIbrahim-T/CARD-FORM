@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.container{
+    display: flex;
+    width: 100%;
+}
+.left{
+    display: block;
+    width:29%;
+    background-image: url(images/bg-main-desktop.png);
+    background-size: cover;
+    height: 40rem;
+}
+.front{
+
+    margin-left: 117px;
+    width: 90%;
+    background-image: url(images/bg-card-front.png);
+    height: 12rem;
+    margin-top: 143px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.front p{
+    color: white;
+    
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 21px;
+    padding-top: 11%;
+    padding-left: 31px;
+    word-spacing: 2px;
+}
+.front h4{
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    color: white;
+    padding: 18px 0 0 29px;
+    font-size: 11px;
+}
+.front h5{
+    color: white;
+    
+    padding-left: 70%;
+    margin-top: -16px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.back{
+    background-image: url(images/bg-card-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 12rem;
+    margin-top: 6%;
+    margin-left: 54%;
+}
+form{
+    display: grid;
+    width: 25%;
+    position: absolute;
+    left: 55%;
+    top: 29%;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #220931;
+
+}
+.cv{
+    display: block;
+    width: 10px;
+    position: absolute;
+    left: 57%;
+    bottom: 14%;
+}
+form span{
+    display: block;
+    padding: 0px 0 7px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    word-spacing: 1px;
+}
+form input{
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 1.2px solid #858585;
+    border-radius: 6px;
+
+}
+form button{
+    color: white;
+    text-transform: uppercase;
+    background: #21092f;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+form input:focus{
+    outline: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: #2f2f2f;;
+}
